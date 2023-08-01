@@ -1,0 +1,57 @@
+.phrasesBox {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  place-items: center;
+  width: min(100%, 400px);
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.phrases-h1 {
+  color: rgba(255, 166, 69, 1);
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 1.7rem;
+  font-size: 1.4rem;
+  box-shadow: 0 0 1rem black;
+}
+
+.phrases-section-button {
+  background-color: rgba(255, 166, 69, 1);
+  color: rgba(137, 52, 70, 1);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  min-height: 40px;
+  width: 200px;
+  margin: 0 6rem 3rem;
+}
+
+.phrases-section-article {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1rem;
+  border-radius: 1.7rem;
+  font-size: 1.2rem;
+  border: black solid 1px;
+}
+
+.phrases-article-p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.phrases-footer {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  border-radius: 1.2rem;
+  font-size: 0.9rem;
+  box-shadow: 0 0 1rem black;
+}
+
+.phrases-footer-h4 {
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(114, 114, 114, 1);
+}
